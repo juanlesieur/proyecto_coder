@@ -1,0 +1,115 @@
+/*import*/
+/*COLORES*/
+/*formulario*/
+/*ICONO DE WHATSAPP*/
+.img-wp {
+  width: 200px/2;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  opacity: 0.9;
+}
+
+/*Medios de Pago*/
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Enlace vuelta inicio*/
+.enlace-vuelta {
+  float: right;
+  text-decoration: none;
+  color: black;
+  transition: 2s;
+  font-size: 20px;
+}
+
+.enlace-vuelta:hover {
+  color: #ffffff;
+}
+
+/*Items Navbar*/
+/*COLORES*/
+.logo-nav {
+  width: 50%;
+}
+
+.social-media {
+  width: 40px;
+  margin: 5px;
+}
+
+.items-navbar {
+  margin-right: 30%;
+}
+
+/*Seccion Nosotros*/
+.nosotros {
+  width: 100%;
+  font-weight: bold;
+}
+
+/*COLORES*/
+.container-nosotros {
+  margin: 5% 10%;
+  background-color: #fafad2;
+  border-radius: 25px;
+}
+
+.img-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  .img-nosotros {
+    display: none;
+  }
+}
+/*ARCHIVO CONTACTO*/
+/*formulario*/
+.form-contact {
+  background-color: #ffebcd;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+/*ARCHIVO PRODUCTOS*/
+.card-img-top {
+  width: 100%;
+}
+.card-img-top:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.logo {
+  width: 20%;
+}
+
+.card:hover {
+  width: 100%;
+}
+.card:hover:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.h1-productos {
+  text-align: center;
+  text-decoration: dashed;
+}
+
+/*formulario*/
+/*body*/
+body {
+  background-image: url(../Imagenes/background.jpg);
+  background-attachment: fixed;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

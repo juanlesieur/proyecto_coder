@@ -1,0 +1,19 @@
+/*import*/
+
+@import "../sass/variables";
+@import "../sass/mixin";
+@import "inicio";
+@import "navbar";
+@import "../sass/nosotros";
+@import "contacto";
+@import "productos";
+@import "../sass/revendedores";
+
+/*body*/
+
+
+body{
+    background-image: url(../Imagenes/background.jpg);
+    background-attachment: fixed;
+    font-family: 'Hind Siliguri', sans-serif; 
+}

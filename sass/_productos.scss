@@ -1,0 +1,20 @@
+/*ARCHIVO PRODUCTOS*/
+.card-img-top{
+    @include cards;
+}
+
+.logo{
+    width: 20%;
+}
+
+
+.card:hover{
+    @include cards;
+}
+
+.h1-productos{
+    text-align: center;
+    text-decoration: dashed;
+}
+
+@import "mixin"

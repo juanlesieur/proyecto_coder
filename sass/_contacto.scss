@@ -1,0 +1,7 @@
+/*ARCHIVO CONTACTO*/
+
+@import "mixin";
+
+.form-contact{
+    @include formulario;
+}

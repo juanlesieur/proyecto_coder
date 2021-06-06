@@ -1,0 +1,19 @@
+/*formulario*/
+
+@mixin formulario {
+    background-color: $colorDos;
+    border-radius: 20px - 10;
+    margin-top: 30px + 10;
+}
+
+@mixin cards {
+
+    
+    width: 100%;
+    &:hover{
+        
+    transition: 2s;
+    transform: scale(1.2);
+    }
+    
+}

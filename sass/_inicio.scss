@@ -1,0 +1,30 @@
+/*ICONO DE WHATSAPP*/
+
+.img-wp{
+    width: 200px / 2;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    opacity: 0.9;
+}
+
+/*Medios de Pago*/
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+}
+/*Enlace vuelta inicio*/
+.enlace-vuelta{
+    float: right;
+    text-decoration: none;
+    color: black;
+    transition: 2s;
+    font-size: 2px * 10;
+}
+
+.enlace-vuelta:hover{
+    color: $colorTres;
+}
