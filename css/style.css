@@ -84,7 +84,7 @@
 }
 .card-img-top:hover {
   transition: 2s;
-  transform: scale(1.2);
+  transform: scale(1.04);
 }
 
 .logo {
@@ -96,7 +96,7 @@
 }
 .card:hover:hover {
   transition: 2s;
-  transform: scale(1.2);
+  transform: scale(1.04);
 }
 
 .h1-productos {
