@@ -9,20 +9,5 @@
 .container-nosotros{
     margin: 5% 10%;
     background-color: $colorUno;
-    border-radius: 25px;
-    
-}
-
-.img-nosotros{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-
-}
-
-@media only screen and (max-width: 400px){
-
-    .img-nosotros{
-        display: none;
-    }
+    border-radius: 25px;    
 }

@@ -1,0 +1,17 @@
+/*Container màs vendidos*/
+
+.titulos-vendidos{
+    display: inline-block;
+    border-bottom: 1px solid $colorCuatro;
+    font-size: 40px;
+}
+
+.container-mas-vendidos{
+    text-align: center;
+    margin: 50px;
+}
+
+.mas-vendidos{
+    width: 90%;
+    height: 90%;
+}

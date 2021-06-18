@@ -8,12 +8,10 @@
 
 @mixin cards {
 
-    
-    width: 100%;
     &:hover{
         
-    transition: 2s;
-    transform: scale(1.04);
+    transition: 1s;
+    transform:scale(1.1);
     }
     
 }

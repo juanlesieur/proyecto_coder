@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*import*/
 /*COLORES*/
 /*formulario*/
@@ -11,24 +12,26 @@
   z-index: 3;
   opacity: 0.9;
 }
-
-/*Medios de Pago*/
-.container-footer {
-  display: flex;
-  justify-content: space-around;
-}
-
-/*Enlace vuelta inicio*/
-.enlace-vuelta {
-  float: right;
-  text-decoration: none;
-  color: black;
+.img-wp:hover {
   transition: 2s;
-  font-size: 20px;
+  filter: sepia(100%);
 }
 
-.enlace-vuelta:hover {
-  color: #ffffff;
+/*header*/
+header {
+  position: sticky;
+}
+
+/*footer*/
+.texto-footer {
+  display: inline-block;
+  color: #ffebcd;
+}
+
+.container-footer {
+  background-color: #333;
+  text-align: center;
+  height: 100%;
 }
 
 /*Items Navbar*/
@@ -46,6 +49,12 @@
   margin-right: 30%;
 }
 
+nav {
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+}
+
 /*Seccion Nosotros*/
 .nosotros {
   width: 100%;
@@ -59,17 +68,6 @@
   border-radius: 25px;
 }
 
-.img-nosotros {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-@media only screen and (max-width: 400px) {
-  .img-nosotros {
-    display: none;
-  }
-}
 /*ARCHIVO CONTACTO*/
 /*formulario*/
 .form-contact {
@@ -79,24 +77,17 @@
 }
 
 /*ARCHIVO PRODUCTOS*/
-.card-img-top {
-  width: 100%;
-}
-.card-img-top:hover {
-  transition: 2s;
-  transform: scale(1.04);
+.card {
+  margin: 50px;
 }
 
 .logo {
   width: 20%;
 }
 
-.card:hover {
-  width: 100%;
-}
 .card:hover:hover {
-  transition: 2s;
-  transform: scale(1.04);
+  transition: 1s;
+  transform: scale(1.1);
 }
 
 .h1-productos {
@@ -105,6 +96,23 @@
 }
 
 /*formulario*/
+/*Container màs vendidos*/
+.titulos-vendidos {
+  display: inline-block;
+  border-bottom: 1px solid #708090;
+  font-size: 40px;
+}
+
+.container-mas-vendidos {
+  text-align: center;
+  margin: 50px;
+}
+
+.mas-vendidos {
+  width: 90%;
+  height: 90%;
+}
+
 /*body*/
 body {
   background-image: url(../Imagenes/background.jpg);

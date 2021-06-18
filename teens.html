@@ -39,14 +39,45 @@
   <body>
 
     <header>
+      <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <!--Logo-->
+            <a class="navbar-brand" href="index.html"><img src="Imagenes/logo.png" alt="Logo empresarial" class="logo-nav"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Nosotros Nav-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="items-navbar">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../DesafioNuevoBoot/index.html">Nosotros</a>
+                </li>
+                <!--Contacto Nav-->
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <!--Productos Nav-->
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="productos.html" >
+                    Productos
+                  </a>
+                </li>
+              </div>
+                <!--Social Media Nav-->
+                <li class="d-flex justify-content-end">
+                    <a href="http://www.facebook.com"><img src="Iconos/facebook.png" alt="" class="social-media"></a>
+                    <a href="http://www.instagram.com"><img src="Iconos/instagram.png" alt="" class="social-media"></a>
+                    <a href="http://www.twitter.com"><img src="Iconos/twitter.png" alt="" class="social-media"></a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
 
-
-        <a href="index.html">
-            <img src="Imagenes/logo.png" alt="" class="logo">
-
-        </a>
-
-    </header>
+  </header>
 
     <section class="d-flex justify-content-around">
         <div class="card" style="width: 18rem;">
@@ -74,6 +105,40 @@
             </div>
           </div>
     </section>
+    <section class="d-flex justify-content-around">
+      <div class="card" style="width: 18rem;">
+          <img src="Imagenes/Teens/teen4.jpg" class="card-img-top" alt="Bulldog">
+          <div class="card-body">
+            <h5 class="card-title">Bulldog</h5>
+            <p class="card-text">Con la ternura justa que necesitas</p>
+            <a href="#" class="btn btn-primary">Precio online $900</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="Imagenes/Teens/teen5.jpg" class="card-img-top" alt="Dona">
+          <div class="card-body">
+            <h5 class="card-title">Donouts!</h5>
+            <p class="card-text">Decorate con estos colores</p>
+            <a href="#" class="btn btn-primary">Precio Online $1000</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="Imagenes/Teens/teen6.jpg" class="card-img-top" alt="batido">
+          <div class="card-body">
+            <h5 class="card-title">Milkshake!</h5>
+            <p class="card-text">Un Milkshake con mucha espuma por favor?</p>
+            <a href="#" class="btn btn-primary">Precio Online $1100</a>
+          </div>
+        </div>
+  </section>
+
+        <!--pie de pagina-->
+        <footer>
+          <div class="container-footer">
+            <p class="texto-footer">Monkey 2021® Todos los derechos reservados. Buenos Aires, Argentina</p>
+          </div>
+    
+        </footer>
 
 <!-- Optional JavaScript; choose one of the two! -->
 
